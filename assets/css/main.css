@@ -2416,12 +2416,25 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
-	}
-
-		.image img {
+		
+		img {
 			border-radius: 5px;
 			display: block;
+
+			&:hover {
+				transform: scale(1.05);
+			}
 		}
+	}
+
+		/* .image img {
+			border-radius: 5px;
+			display: block;
+
+			&:hover {
+				transform: scale(1.05);
+			}
+		} */
 
 		.image.left, .image.right {
 			max-width: 40%;
